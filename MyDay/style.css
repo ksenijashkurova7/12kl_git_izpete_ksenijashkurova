@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #A9D6E5;
+}
+
+.header {
+  background: #023E8A;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn {
+  background: #023E8A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+.content {
+  padding: 1.5rem;
+}
+
+.task {
+  background: white;
+  margin: 10px 0;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Progress bar */
+.progress {
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 82%;
+  height: 20px;
+  background: #00B4D8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .task {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.p1 {
+  text-align:top;
+}
